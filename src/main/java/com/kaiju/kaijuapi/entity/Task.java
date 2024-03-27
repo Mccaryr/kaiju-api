@@ -2,8 +2,12 @@ package com.kaiju.kaijuapi.entity;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "task")
 public class Task {
     @Id
